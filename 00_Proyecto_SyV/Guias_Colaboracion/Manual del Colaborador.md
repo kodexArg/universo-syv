@@ -7,10 +7,9 @@ Nuestro objetivo es mantener un corpus de información coherente, bien estructur
 ## Estructura de Directorios del Repositorio
 
 * **`00_Proyecto_SyV`**
+    * `Glosario_y_Diccionarios`
     * `Guias_Colaboracion`
-    * `Estructura_Contenido`
-    * `Plantillas_Archivos`
-    * `Glosario_General`
+        * `Plantillas_Archivos`
 * **`01_Lore`**
     * `00_Fundamentos`
         * `Leyes_Decretos_Principales`

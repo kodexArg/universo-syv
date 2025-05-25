@@ -1,0 +1,1 @@
+Este proyecto está escrito descaradamente en español. Y no pretende siquiera acercarse a otros idiomas, tal es el espíritu de Subordinación y Valor.
