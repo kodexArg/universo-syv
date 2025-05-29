@@ -21,8 +21,8 @@ Los siguientes eventos fueron reconstruidos a partir de archivos de la época. N
 
 ### **Contexto del año**
 - **Promesas incumplidas**
-  - La política y la contención social no logran alcanzar el avance de los robots inteligentes y trabajadores agénticos de IA.
-  - La catástrofe es social, los luditas pierden la batalla y la justicia es desoída.
+  - La política y la contención social no alcanza a la velocidad con la que se venden millones de robots inteligentes y trabajadores agénticos de IA.
+  - La catástrofe es social. Los Luditas pierden la batalla y nadie escucha a la justicia.
   - Las asimetrías sociales se expanden.
   - El trabajo colapsa.
 - **Sociedades fragmentadas**
@@ -32,28 +32,32 @@ Los siguientes eventos fueron reconstruidos a partir de archivos de la época. N
   - Asia se hunde afectada por el aumento en el nivel del mar, causando migraciones masivas.
   - África, un campo de exterminio.
   - Australia se retrae hacia su desierto, mientras las islas comienzan un periodo de aislamiento que durará muchos años.
-  - Estados Unidos experimenta un período de explosivo poder, pero su sociedad se fragmenta hasta los extremos y su política se vuelve cada vez más amenazante y peligrosa para todo el mundo.
-  - China se retrae, expectante. Su pujante red comercial ya hace tiempo alcanzó su pico y ahora entra en decadencia.
+  - Estados Unidos experimenta un período de poder explosivo mientras su sociedad se fragmenta en mil pedazos, empezando por los estratos sociales más bajos.
+  - China retrae su red comercial, que ya hace tiempo alcanzó su pico y no para de disminuir.
 - **Automatizando el desempleo**
-  - Las protestas sindicales y las regulaciones gubernamentales no pudieron detener la implacable lógica económica.
-  - Los robots trabajaban las 24 horas, no pedían vacaciones, no se enfermaban, y costaban menos que un salario mínimo anual.
-  - La huida de las élites tecno-oligárquicas se convierte en un fenómeno global, y estos hiper millonarios se pierden en islas invisibles para no volver a aparecer.
+  - Las profesiones creadas en la última década son las más perjudicadas y sin contención social.
+  - Luego la movilidad queda a manos de ese "Dios Autónomo" que la humanidad crea sin poder evitarlo.
+  - La élites tecno-oligárquicas huyen a islas privadas e invisibles, para no volver a aparecer en la historia del hombre.
 
 ### **23 de abril**
 - **Incidente de Varsovia:**
-  - Ciberprotestantes organizados destruyen centros de datos de Amazon, usando incluso medios físicos como drones y explosivos.
-  - Pronto el precio del cómputo genera una reacción en cadena, que destruye millones de empresas emergentes.
+  - Ciberprotestantes organizados destruyen centros de datos de Amazon, usando incluso medios físicos como drones y explosivos. Otros datacenters también son destruidos con daños casi masivos.
+  - Pronto el precio del cómputo genera una reacción en cadena que destruye millones de empresas emergentes.
   - La economía global se hunde.
 
 ### **21 de octubre**
 - **"Semana Negra":**
-  - Lunes Negro: Finalmente Estados Unidos patea el tablero y se retira de la OTAN, las Naciones Unidas, el Tratado de Libre Comercio de América del Norte y todos los pactos críticos.
-  - El cierre del Canal de Panamá.
-  - El impacto global es devastador cuando las redes comerciales colapsan como un castillo de naipes, dejando a Europa sin petróleo, a Asia sin alimentos y a América Latina sin manufacturas.
+  - Estados Unidos abandona alianzas globales y cierra su Canal de Panamá.
+  - Colapso de las redes comerciales generan:
+    - Escasez de silicio y tierras raras.
+    - Paralización de fábricas y puertos en Asia.
+    - Apagones masivos en Europa.
+  - América Latina aislada y sin acceso a tecnología experimenta una primavera de desarrollo de tecnologías locales (que no llegará al otoño).
+  - Caída de la infraestructura crítica global.
 
 ### **18 de noviembre**
 - **"La Noche Global":**
-  - Un ciberataque masivo que, por seis horas interminables, logra apagar la infraestructura eléctrica de todo el mundo. Un apagón planetario. Son piratas informáticos haciendo uso de inteligencias artificiales con un entrenamiento que supera cualquier IA conocida, dominando todo el código de los sistemas.
+  - Un ciberataque masivo que, por dieciséis horas interminables, logra apagar la infraestructura eléctrica de todo el mundo. Un apagón planetario. Son piratas informáticos haciendo uso de inteligencias artificiales con un entrenamiento que supera cualquier IA conocida, dominando todo el código de los sistemas.
   - El pánico se expande como virus, y se comienza a hablar abiertamente de apocalipsis mientras las ciudades se sumergen en una oscuridad medieval.
 
 ### **27 de diciembre**
@@ -99,10 +103,10 @@ Los siguientes eventos fueron reconstruidos a partir de archivos de la época. N
   - Mucho más inestable, se configura a la sombra de Córdoba y Buenos Aires.
   - Duración: tres meses exactos antes de sumirse en la anarquía.
   - Rebautizada "el Páramo", dominada por cárteles de narcotraficantes que encontraron en el caos su oportunidad dorada para establecer feudos donde la cocaína vale más que el agua.
-- **Mendoza:**
-  - Los ciudadanos forman milicias civiles armadas ante la certeza de una invasión chilena, convirtiendo cada viñedo en una trinchera y cada bodega en un arsenal.
+- **Mendoza:** "Fuerte San Martín".
+  - Los ciudadanos colaboran con el ejército y civiles armados se preparan para defender la Patria ante la certeza de una invasión chilena.
   - Primer gobernador militar electo en 2031.
-  - Amenaza secesionista, diálogos con el resto de Cuyo y Córdoba.
+  - Amenaza secesionista, diálogos con Cuyo y Córdoba.
 
 ### **Primavera Sangrienta sobre el cadáver de la República Argentina**
 - **Guerra Civil:**
