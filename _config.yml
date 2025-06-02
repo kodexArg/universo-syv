@@ -80,4 +80,5 @@ exclude:
   - node_modules
   - vendor
   - .gitignore
-  - .github 
+  - .github
+  - scripts 
