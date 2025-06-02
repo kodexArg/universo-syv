@@ -1,0 +1,35 @@
+<nav class="site-nav">
+  <div class="nav-section">
+    <h3 class="nav-title">Proyecto</h3>
+    <ul class="nav-list">
+      <li><a href="{{ '/ABSTRACT' | relative_url }}">Abstract</a></li>
+      <li><a href="{{ '/proyecto' | relative_url }}">Documentación</a></li>
+    </ul>
+  </div>
+
+  <div class="nav-section">
+    <h3 class="nav-title">Universo</h3>
+    <ul class="nav-list">
+      <li><a href="{{ '/lore' | relative_url }}">Lore</a></li>
+      <li><a href="{{ '/personajes' | relative_url }}">Personajes</a></li>
+      <li><a href="{{ '/historias' | relative_url }}">Historias</a></li>
+      <li><a href="{{ '/rpg' | relative_url }}">RPG</a></li>
+    </ul>
+  </div>
+
+  {% if page.collection %}
+  <div class="nav-section">
+    <h3 class="nav-title">Sección Actual</h3>
+    <ul class="nav-list">
+      {% assign items = site[page.collection] | sort: 'date' | reverse %}
+      {% for item in items limit:5 %}
+      <li>
+        <a href="{{ item.url | relative_url }}" {% if item.url == page.url %}class="active"{% endif %}>
+          {{ item.title }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+</nav> 

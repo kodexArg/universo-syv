@@ -1,0 +1,83 @@
+title: Subordinación y Valor
+description: Un universo distópico ambientado en la Argentina post-apocalíptica del año 2178
+baseurl: "/universo-syv"
+url: "https://kodexArg.github.io"
+
+# Theme configuration
+remote_theme: pages-themes/midnight@v0.2.0
+# El tema midnight proporciona una estética más oscura y distópica
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:title/
+  lore:
+    output: true
+    permalink: /:collection/:title/
+    directory: 01_Lore
+  personajes:
+    output: true
+    permalink: /:collection/:title/
+    directory: 02_Personajes
+  historias:
+    output: true
+    permalink: /:collection/:title/
+    directory: 03_Historias
+  rpg:
+    output: true
+    permalink: /:collection/:title/
+    directory: 04_RPG
+  proyecto:
+    output: true
+    permalink: /:collection/:title/
+    directory: 00_Proyecto_SyV
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "01_Lore"
+      type: "lore"
+    values:
+      layout: "post"
+  - scope:
+      path: "02_Personajes"
+      type: "personajes"
+    values:
+      layout: "post"
+  - scope:
+      path: "03_Historias"
+      type: "historias"
+    values:
+      layout: "post"
+  - scope:
+      path: "04_RPG"
+      type: "rpg"
+    values:
+      layout: "post"
+  - scope:
+      path: "00_Proyecto_SyV"
+      type: "proyecto"
+    values:
+      layout: "post"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - .github 

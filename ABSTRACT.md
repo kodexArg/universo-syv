@@ -1,3 +1,14 @@
+---
+layout: post
+title: "Abstract - Subordinación y Valor"
+description: "Resumen del universo distópico de Subordinación y Valor"
+date: 2024-03-20
+tags:
+  - proyecto
+  - abstract
+  - lore
+---
+
 "Subordinación y Valor" es un proyecto de construcción colaborativa de un universo distópico futurístico. Ambientado en el año 2178 en la Argentina post-apocalíptica, el mundo emerge tras la devastación de la Gran Guerra Global y el colapso tecnológico (el "Fin de los Secretos"), desencadenado por la descontrolada Inteligencia Artificial Quiescente (QIA). Este evento, con fuertes bases históricas en las tensiones y preparativos de principios del siglo XXI, llevó a un siglo de oscuridad, fragmentando la civilización en ciudades-estado aisladas y generando un profundo miedo a la inteligencia artificial.
 La narrativa se centra inicialmente en Ciudad Dársena, erigida sobre las ruinas de la antigua Buenos Aires, específicamente a la vera del Río de la Plata, y protegida por un imponente muro que la separa de los "salvajes" del continente. Dársena funciona como la capital de la Confederación Argentina, una alianza de 22 ciudades-estado unidas bajo un gobierno centralizado y una estricta política de supervivencia. La vida en Dársena está marcada por un control dual del Ejército Argentino (con sede en Córdoba pero influyente en Dársena) y la Iglesia (con la Nueva Basílica de San Pedro y la Santa Inquisición Argentina - SIA como su brazo temido), que regulan todos los aspectos de la sociedad basándose en una Constitución con leyes severas y una prohibición absoluta de la computación con CPU.
 La ciudad se divide en zonas claramente estratificadas, desde la acomodada Zona Residencia y la Eclesiástica en el norte, hasta el bullicioso Centro comercial y los superpoblados Barrios del Muro en el sur y oeste, donde la vida se caracteriza por condiciones extremas de hacinamiento. Una característica distintiva es la vasta red subterránea conocida como "Las Tuberías". Originalmente infraestructura de mantenimiento, metro y desagüe pre-guerra, ahora es un refugio denso para millones de marginados y disidentes, un laberinto de vida clandestina con sus propias comunidades, mercados (como el Mercado Subterráneo de Antigua Estación y el Bazar del Muro) y peligros. Aunque en gran parte ignorado oficialmente por las autoridades de la superficie, este inframundo está intrínsecamente conectado a ella y alberga tanto la miseria como focos de resistencia y conocimiento prohibido.
