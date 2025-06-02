@@ -14,7 +14,33 @@ Un universo distópico donde la supervivencia, la fe y la resistencia se entrela
 
 ## Últimas Entradas
 
-{% for post in site.posts limit:5 %}
+### Proyecto
+{% assign proyecto_posts = site.proyecto | sort: 'date' | reverse %}
+{% for post in proyecto_posts limit:3 %}
+- [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%d/%m/%Y" }}
+{% endfor %}
+
+### Lore
+{% assign lore_posts = site.lore | sort: 'date' | reverse %}
+{% for post in lore_posts limit:3 %}
+- [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%d/%m/%Y" }}
+{% endfor %}
+
+### Personajes
+{% assign personajes_posts = site.personajes | sort: 'date' | reverse %}
+{% for post in personajes_posts limit:3 %}
+- [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%d/%m/%Y" }}
+{% endfor %}
+
+### Historias
+{% assign historias_posts = site.historias | sort: 'date' | reverse %}
+{% for post in historias_posts limit:3 %}
+- [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%d/%m/%Y" }}
+{% endfor %}
+
+### Manual del Jugador
+{% assign rpg_posts = site.rpg_manual_del_jugador | sort: 'date' | reverse %}
+{% for post in rpg_posts limit:3 %}
 - [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%d/%m/%Y" }}
 {% endfor %}
 

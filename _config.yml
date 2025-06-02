@@ -19,26 +19,21 @@ collections:
   posts:
     output: true
     permalink: /:collection/:title/
-  lore:
-    output: true
-    permalink: /:collection/:title/
-    directory: 01_Lore
-  personajes:
-    output: true
-    permalink: /:collection/:title/
-    directory: 02_Personajes
-  historias:
-    output: true
-    permalink: /:collection/:title/
-    directory: 03_Historias
-  rpg:
-    output: true
-    permalink: /:collection/:title/
-    directory: 04_RPG
   proyecto:
     output: true
     permalink: /:collection/:title/
-    directory: 00_Proyecto_SyV
+  lore:
+    output: true
+    permalink: /:collection/:title/
+  personajes:
+    output: true
+    permalink: /:collection/:title/
+  historias:
+    output: true
+    permalink: /:collection/:title/
+  rpg_manual_del_jugador:
+    output: true
+    permalink: /:collection/:title/
 
 # Defaults
 defaults:
@@ -48,30 +43,35 @@ defaults:
     values:
       layout: "post"
   - scope:
-      path: "01_Lore"
-      type: "lore"
-    values:
-      layout: "post"
-  - scope:
-      path: "02_Personajes"
-      type: "personajes"
-    values:
-      layout: "post"
-  - scope:
-      path: "03_Historias"
-      type: "historias"
-    values:
-      layout: "post"
-  - scope:
-      path: "04_RPG"
-      type: "rpg"
-    values:
-      layout: "post"
-  - scope:
-      path: "00_Proyecto_SyV"
+      path: "_proyecto"
       type: "proyecto"
     values:
       layout: "post"
+      category: "proyecto"
+  - scope:
+      path: "_lore"
+      type: "lore"
+    values:
+      layout: "post"
+      category: "lore"
+  - scope:
+      path: "_personajes"
+      type: "personajes"
+    values:
+      layout: "post"
+      category: "personajes"
+  - scope:
+      path: "_historias"
+      type: "historias"
+    values:
+      layout: "post"
+      category: "historias"
+  - scope:
+      path: "_rpg_manual_del_jugador"
+      type: "rpg_manual_del_jugador"
+    values:
+      layout: "post"
+      category: "rpg_manual_del_jugador"
 
 # Exclude from processing
 exclude:
