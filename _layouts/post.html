@@ -3,12 +3,17 @@ layout: default
 ---
 <article class="post">
   <header class="post-header">
+    <div class="post-meta">
+      {% if page.fecha %}
+      <time datetime="{{ page.fecha }}" class="post-date">{{ page.fecha }}</time>
+      {% endif %}
+      {% if page.region %}
+      <span class="post-region">{{ page.region }}</span>
+      {% endif %}
+    </div>
     <h1 class="post-title">{{ page.title }}</h1>
-    {% if page.fecha %}
-    <p class="post-meta">
-      <time datetime="{{ page.fecha }}">{{ page.fecha }}</time>
-      {% if page.region %} • {{ page.region }}{% endif %}
-    </p>
+    {% if page.description %}
+    <p class="post-description">{{ page.description }}</p>
     {% endif %}
   </header>
 
@@ -20,9 +25,25 @@ layout: default
     {% if page.tags %}
     <div class="post-tags">
       {% for tag in page.tags %}
-      <span class="post-tag">{{ tag }}</span>
+      <a href="{{ '/tags#' | append: tag | relative_url }}" class="post-tag">{{ tag }}</a>
       {% endfor %}
     </div>
     {% endif %}
+    
+    <div class="post-navigation">
+      {% if page.previous.url %}
+      <a href="{{ page.previous.url | relative_url }}" class="post-nav-link prev">
+        <span class="post-nav-label">Anterior</span>
+        <span class="post-nav-title">{{ page.previous.title }}</span>
+      </a>
+      {% endif %}
+      
+      {% if page.next.url %}
+      <a href="{{ page.next.url | relative_url }}" class="post-nav-link next">
+        <span class="post-nav-label">Siguiente</span>
+        <span class="post-nav-title">{{ page.next.title }}</span>
+      </a>
+      {% endif %}
+    </div>
   </footer>
 </article> 
