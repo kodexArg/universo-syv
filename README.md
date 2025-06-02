@@ -27,7 +27,7 @@ Este proyecto está escrito descaradamente en español. Y no pretende siquiera a
 - `relatos/`: Historias más extensas
 - `fragmentos/`: Escenas y momentos sueltos
 
-### 🎲 Manual del Jugador (`_rpg_manual_del_jugador/`)
+### 🎲 Manual del Jugador (`_rpg/`)
 - `manual/`: Manual principal del juego
 - `reglas/`: Sistema de reglas y mecánicas
 - `aventuras/`: Aventuras y escenarios predefinidos

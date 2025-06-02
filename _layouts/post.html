@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.fecha %}
+    <p class="post-meta">
+      <time datetime="{{ page.fecha }}">{{ page.fecha }}</time>
+      {% if page.region %} • {{ page.region }}{% endif %}
+    </p>
+    {% endif %}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    {% if page.tags %}
+    <div class="post-tags">
+      {% for tag in page.tags %}
+      <span class="post-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </footer>
+</article> 
