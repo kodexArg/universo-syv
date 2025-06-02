@@ -41,7 +41,7 @@ Un universo distópico donde la supervivencia, la fe y la resistencia se entrela
 {% endfor %}
 
 ### Manual del Jugador
-{% assign rpg_posts = site.rpg_manual_del_jugador | sort: 'date' | reverse %}
+{% assign rpg_posts = site.rpg | sort: 'date' | reverse %}
 {% for post in rpg_posts limit:3 %}
 - [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%d/%m/%Y" }}
 {% endfor %}
