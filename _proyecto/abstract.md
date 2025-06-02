@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "Abstract - Subordinación y Valor"
-description: "Resumen del universo distópico de Subordinación y Valor"
+title: Abstract - Subordinación y Valor
+description: Resumen del universo distópico de Subordinación y Valor
 date: 2024-03-20
 tags:
-  - proyecto
-  - abstract
-  - lore
+- proyecto
+- abstract
+- lore
 ---
+
 
 "Subordinación y Valor" es un proyecto de construcción colaborativa de un universo distópico futurístico. Ambientado en el año 2178 en la Argentina post-apocalíptica, el mundo emerge tras la devastación de la Gran Guerra Global y el colapso tecnológico (el "Fin de los Secretos"), desencadenado por la descontrolada Inteligencia Artificial Quiescente (QIA). Este evento, con fuertes bases históricas en las tensiones y preparativos de principios del siglo XXI, llevó a un siglo de oscuridad, fragmentando la civilización en ciudades-estado aisladas y generando un profundo miedo a la inteligencia artificial.
 La narrativa se centra inicialmente en Ciudad Dársena, erigida sobre las ruinas de la antigua Buenos Aires, específicamente a la vera del Río de la Plata, y protegida por un imponente muro que la separa de los "salvajes" del continente. Dársena funciona como la capital de la Confederación Argentina, una alianza de 22 ciudades-estado unidas bajo un gobierno centralizado y una estricta política de supervivencia. La vida en Dársena está marcada por un control dual del Ejército Argentino (con sede en Córdoba pero influyente en Dársena) y la Iglesia (con la Nueva Basílica de San Pedro y la Santa Inquisición Argentina - SIA como su brazo temido), que regulan todos los aspectos de la sociedad basándose en una Constitución con leyes severas y una prohibición absoluta de la computación con CPU.

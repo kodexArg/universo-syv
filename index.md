@@ -1,8 +1,10 @@
 ---
 layout: home
 title: Subordinación y Valor
-description: Un universo distópico ambientado en la Argentina post-apocalíptica del año 2178
+description: Un universo distópico ambientado en la Argentina post-apocalíptica del
+  año 2178
 ---
+
 
 # Subordinación y Valor
 

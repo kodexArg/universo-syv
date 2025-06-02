@@ -1,11 +1,12 @@
 ---
-titulo: "Línea del tiempo"
-ruta: "01_Lore/01_Cronologia/Línea del tiempo.md"
+titulo: Línea del tiempo
+ruta: 01-Lore/01-Cronologia/Línea del tiempo.md
 tags:
-  - "cronologia"
-fecha: "2030-2170"
-region: "Argentina/Global"
+- cronologia
+fecha: 2030-2170
+region: Argentina/Global
 ---
+
 
 # Línea de Tiempo del Colapso (2030-2170)
 

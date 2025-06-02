@@ -31,7 +31,7 @@ collections:
   historias:
     output: true
     permalink: /:collection/:title/
-  rpg_manual_del_jugador:
+  rpg-manual-del-jugador:
     output: true
     permalink: /:collection/:title/
 
@@ -67,11 +67,11 @@ defaults:
       layout: "post"
       category: "historias"
   - scope:
-      path: "_rpg_manual_del_jugador"
-      type: "rpg_manual_del_jugador"
+      path: "_rpg-manual-del-jugador"
+      type: "rpg-manual-del-jugador"
     values:
       layout: "post"
-      category: "rpg_manual_del_jugador"
+      category: "rpg-manual-del-jugador"
 
 # Exclude from processing
 exclude:
