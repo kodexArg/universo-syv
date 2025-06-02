@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Guía de Metadatos"
+date: 2024-06-02
+tags:
+- proyecto
+- guia
+- metadatos
+---
+
 # Metadatos YAML - Proyecto Subordinación y Valor
 
 Todos los archivos `.md` del proyecto deben incluir metadatos YAML al inicio del archivo.

@@ -1,6 +1,7 @@
 ---
-titulo: Línea del tiempo
-ruta: 01-Lore/01-Cronologia/Línea del tiempo.md
+layout: post
+title: "Línea del tiempo"
+date: 2024-06-02
 tags:
 - cronologia
 fecha: 2030-2170

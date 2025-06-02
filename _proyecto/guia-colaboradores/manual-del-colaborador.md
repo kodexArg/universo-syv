@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Manual del Colaborador"
+date: 2024-06-02
+tags:
+- proyecto
+- guia
+- colaboracion
+---
+
 # Manual del Colaborador: Universo "Subordinación y Valor"
 
 Bienvenido al Manual del Colaborador del Universo "Subordinación y Valor". Este documento es tu guía esencial para comprender cómo se organiza nuestro repositorio compartido y cómo contribuir de manera efectiva y consistente a la expansión de este mundo.
