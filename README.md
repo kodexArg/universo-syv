@@ -6,6 +6,12 @@ Un universo distópico ambientado en la Argentina post-apocalíptica del año 21
 
 Este proyecto está escrito descaradamente en español. Y no pretende siquiera acercarse a otros idiomas, tal es el espíritu de Subordinación y Valor. En un mundo donde la tecnología se volvió contra la humanidad, donde las ciudades se convirtieron en fortalezas y donde la fe y el control se entrelazan en las sombras de Ciudad Dársena, el lenguaje es más que comunicación: es resistencia.
 
+Subordinación y Valor es un proyecto colaborativo de world building. Busca crear un espacio donde las historias escritas por humanos encuentren su lugar en un universo organizado y estructurado con herramientas de AI.
+
+## Créditos
+
+Creado por [Gabriel Cavedal](https://github.com/kodexArg). Este universo es un proyecto de construcción colaborativa, donde cada contribución enriquece la narrativa colectiva.
+
 ## Estructura del Proyecto
 
 ### 📚 Proyecto (`_proyecto/`)
@@ -42,7 +48,13 @@ Este es un proyecto colaborativo. Si quieres contribuir, asegúrate de:
 
 ## Licencia
 
-Este proyecto se distribuye bajo la licencia [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Este proyecto se distribuye bajo la licencia [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/). Esto significa que:
+
+- Puedes usar, modificar y distribuir este contenido libremente
+- Puedes usarlo con fines comerciales
+- Puedes crear obras derivadas
+- El único requisito es citar la fuente original
+
 
 ---
 
