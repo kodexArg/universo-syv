@@ -8,11 +8,7 @@ description: Un universo distópico ambientado en la Argentina post-apocalíptic
 
 # Subordinación y Valor
 
-Un universo distópico donde la supervivencia, la fe y la resistencia se entrelazan en las sombras de Ciudad Dársena.
-
-## Sobre el Proyecto
-
-"Subordinación y Valor" es un universo distópico ambientado en la Argentina post-apocalíptica del año 2178. Tras la devastación de la Gran Guerra Global y el colapso tecnológico, Ciudad Dársena emerge como el último bastión de la civilización en un mundo sumido en la oscuridad.
+"Subordinación y Valor" es un universo distópico ambientado en la Argentina post-apocalíptica del año 2178. Tras la devastación de la Gran Guerra Global y el colapso tecnológico, Ciudad Dársena emerge como el último bastión espiritual de Occidente, en un mundo sumido en la oscuridad, donde diferentes facciones luchan por subsistir en una metrópolis al borde del colapso.
 
 ## Últimas Entradas
 

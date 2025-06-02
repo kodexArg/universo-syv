@@ -3,9 +3,7 @@ description: Un universo distópico ambientado en la Argentina post-apocalíptic
 baseurl: "/universo-syv"
 url: "https://kodexArg.github.io"
 
-# Theme configuration
 remote_theme: pages-themes/midnight@v0.2.0
-# El tema midnight proporciona una estética más oscura y distópica
 
 # Build settings
 markdown: kramdown

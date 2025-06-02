@@ -5,74 +5,27 @@
     <title>{{ page.title }} - {{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ page.description | default: site.description }}">
-    
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicon/apple-touch-icon.png' | relative_url }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon/favicon-32x32.png' | relative_url }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon/favicon-16x16.png' | relative_url }}">
-    <link rel="manifest" href="{{ '/assets/favicon/site.webmanifest' | relative_url }}">
-    <link rel="mask-icon" href="{{ '/assets/favicon/safari-pinned-tab.svg' | relative_url }}" color="#ff8c00">
-    <meta name="msapplication-TileColor" content="#000000">
-    <meta name="theme-color" content="#000000">
-    
-    <!-- Styles -->
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/syntax.css' | relative_url }}">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class="site-header">
-      <div class="container">
-        <h1 class="site-title">
-          <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-        </h1>
-        <nav class="main-nav">
-          <ul>
-            <li><a href="{{ '/proyecto/' | relative_url }}">Proyecto</a></li>
-            <li><a href="{{ '/lore/' | relative_url }}">Lore</a></li>
-            <li><a href="{{ '/personajes/' | relative_url }}">Personajes</a></li>
-            <li><a href="{{ '/historias/' | relative_url }}">Historias</a></li>
-            <li><a href="{{ '/rpg/' | relative_url }}">RPG</a></li>
-          </ul>
-        </nav>
-      </div>
+    <header>
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <nav>
+        <a href="{{ '/proyecto/' | relative_url }}">Proyecto</a>
+        <a href="{{ '/lore/' | relative_url }}">Lore</a>
+        <a href="{{ '/personajes/' | relative_url }}">Personajes</a>
+        <a href="{{ '/historias/' | relative_url }}">Historias</a>
+        <a href="{{ '/rpg/' | relative_url }}">RPG</a>
+      </nav>
     </header>
 
-    <div class="site-container">
-      <aside class="site-sidebar">
-        {% include navigation.html %}
-      </aside>
+    <main>
+      {{ content }}
+    </main>
 
-      <main class="site-content">
-        <div class="container">
-          {{ content }}
-        </div>
-      </main>
-    </div>
-
-    <footer class="site-footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-section">
-            <p class="site-description">{{ site.description }}</p>
-            <p class="site-quote">"En las sombras de Dársena, la verdad es el arma más peligrosa"</p>
-          </div>
-          <div class="footer-section">
-            <p class="site-license">
-              <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">
-                CC BY-NC-SA 4.0
-              </a>
-            </p>
-            <p class="site-github">
-              <a href="https://github.com/kodexarg/universo-syv" target="_blank" rel="noopener noreferrer">
-                GitHub
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
+    <footer>
+      <p>{{ site.description }}</p>
+      <p>"En las sombras de Dársena, la verdad es el arma más peligrosa"</p>
+      <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
     </footer>
   </body>
 </html> 

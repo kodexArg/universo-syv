@@ -1,49 +1,29 @@
 ---
 layout: default
 ---
-<article class="post">
-  <header class="post-header">
-    <div class="post-meta">
-      {% if page.fecha %}
-      <time datetime="{{ page.fecha }}" class="post-date">{{ page.fecha }}</time>
-      {% endif %}
-      {% if page.region %}
-      <span class="post-region">{{ page.region }}</span>
-      {% endif %}
-    </div>
-    <h1 class="post-title">{{ page.title }}</h1>
-    {% if page.description %}
-    <p class="post-description">{{ page.description }}</p>
-    {% endif %}
-  </header>
+<article>
+  <h1>{{ page.title }}</h1>
+  {% if page.description %}
+  <p>{{ page.description }}</p>
+  {% endif %}
 
-  <div class="post-content">
-    {{ content }}
+  {{ content }}
+
+  {% if page.tags %}
+  <div>
+    {% for tag in page.tags %}
+    <a href="{{ '/tags#' | append: tag | relative_url }}">{{ tag }}</a>
+    {% endfor %}
   </div>
-
-  <footer class="post-footer">
-    {% if page.tags %}
-    <div class="post-tags">
-      {% for tag in page.tags %}
-      <a href="{{ '/tags#' | append: tag | relative_url }}" class="post-tag">{{ tag }}</a>
-      {% endfor %}
-    </div>
+  {% endif %}
+  
+  <nav>
+    {% if page.previous.url %}
+    <a href="{{ page.previous.url | relative_url }}">← {{ page.previous.title }}</a>
     {% endif %}
     
-    <div class="post-navigation">
-      {% if page.previous.url %}
-      <a href="{{ page.previous.url | relative_url }}" class="post-nav-link prev">
-        <span class="post-nav-label">Anterior</span>
-        <span class="post-nav-title">{{ page.previous.title }}</span>
-      </a>
-      {% endif %}
-      
-      {% if page.next.url %}
-      <a href="{{ page.next.url | relative_url }}" class="post-nav-link next">
-        <span class="post-nav-label">Siguiente</span>
-        <span class="post-nav-title">{{ page.next.title }}</span>
-      </a>
-      {% endif %}
-    </div>
-  </footer>
+    {% if page.next.url %}
+    <a href="{{ page.next.url | relative_url }}">{{ page.next.title }} →</a>
+    {% endif %}
+  </nav>
 </article> 
